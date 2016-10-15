@@ -1,0 +1,49 @@
+@media  screen and (max-width: 1200px) {
+
+  // about
+  .container-about {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .traingle__right--about {
+    fill: #ebefe2;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .section-title--abilities {
+    text-align: center;
+  }
+
+  .graphs {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+.inner-footer__caption {
+  width: 50%;
+  text-align: left;
+}
+
+.inner-footer__links {
+  width: 50%;
+}
+
+.inner-footer__quote {
+  width: 100%;
+  padding: 20px 20px 0 20px;
+}
+
+.inner-footer__links::after {
+  display: none;
+}
+
+
+}

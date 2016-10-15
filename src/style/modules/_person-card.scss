@@ -1,0 +1,134 @@
+//СТИЛИ КАРТОЧКИ С ПЕРСОНАЛЬНОЙ ИНФОРМАЦИЕЙ
+
+.person-card {
+  position: relative;
+  min-width: 300px;
+  height: 395px;
+  background: rgba(18,38,32,.6);
+  padding-top: 40px;
+  text-align: center;
+  overflow: hidden;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+.person-info__image-wrap {
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.person-info__image-wrap--lit-margin {
+  margin-bottom: 5px;
+}
+
+.person-info__image-wrap--big-margin {
+  margin-bottom: 20px;
+}
+
+.person-info__image {
+  max-width: 100%;
+}
+
+.person-info__name {
+  margin: 0 0 3px 0;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+}
+
+.person-info__caption {
+  margin: 0 0 34px 0;
+  font: normal 1.14rem 'Roboto', Arial, sans-serif;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.person-info--inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 300px;
+  text-align: center;
+}
+
+.person-info__name--about {
+  font: normal 1.50rem 'Roboto', Arial, sans-serif;
+}
+
+.person-info__caption--about {
+  font-size: 1rem;
+}
+
+//Карточка на внутренних страницах
+
+.person-card-inner {
+  position: relative;
+  min-width: 300px;
+  height: 395px;
+  background: rgba(18,38,32,.6);
+  padding-top: 40px;
+  text-align: center;
+  overflow: hidden;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transform: rotateY(0deg);
+}
+
+.person-info-inner__image-wrap {
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.person-info-inner__image-wrap--lit-margin {
+  margin-bottom: 9px;
+}
+
+.person-info-inner__image-wrap--big-margin {
+  margin-bottom: 17px;
+}
+
+.person-info-inner__image {
+  max-width: 100%;
+}
+
+.person-info-inner__name {
+  margin: 0 0 3px 0;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #fff;
+}
+
+.person-info-inner__caption {
+  margin: 0 0 35px 0;
+  font: normal 1.4rem 'Roboto', Arial, sans-serif;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.person-info-inner--center {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 410px;
+  text-align: center;
+}
+
+.person-info-inner__name--about {
+  font: normal 1.50rem 'Roboto', Arial, sans-serif;
+}
+
+.person-info-inner__caption--about {
+  font-size: 1rem;
+}

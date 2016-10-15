@@ -1,0 +1,19 @@
+@import 'modules/normalize';
+@import 'modules/type';
+@import 'modules/base';
+@import 'modules/person-card';
+@import 'pages/welcome';
+@import 'pages/inner-pages';
+@import 'pages/works';
+@import 'modules/slider';
+@import 'pages/about';
+@import 'pages/blog';
+@import 'modules/menu';
+@import 'modules/inner-footer';
+
+
+//media
+@import 'media/desktop';
+@import 'media/laptop';
+@import 'media/tablets';
+@import 'media/phones';

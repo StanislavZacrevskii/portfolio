@@ -1,0 +1,117 @@
+.inner-footer {
+  position: absolute;
+  z-index: 1;
+  transform: translateY(-100%);
+  color: #fff;
+  left: 0;
+  right: 0;
+}
+
+.inner-footer__top {
+  background: rgba(55,62,66,0.85);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.inner-footer__caption,
+.inner-footer__links,
+.inner-footer__quote {
+  width: 33.33%;
+  padding: 20px 2.5%;
+  position: relative;
+  text-align: center;
+}
+
+.inner-footer__caption-text {
+  font: 300 1.3rem 'Roboto', Arial, sans-serif;
+  color: #fff;
+  max-width: 345px;
+  margin: 0 auto;
+}
+
+.inner-footer__caption::after {
+  position: absolute;
+  content: '';
+  left: auto;
+  right: 0;
+  top: 2.5%;
+  bottom: 2.5%;
+  width: 1px;
+  height: auto;
+  background: rgba(255,255,255,.3);
+}
+
+.inner-footer__links {
+  &::after {
+    position: absolute;
+    content: '';
+    left: auto;
+    right: 0;
+    top: 2.5%;
+    bottom: 2.5%;
+    width: 1px;
+    height: auto;
+    background: rgba(255,255,255,.3);
+  }
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav__link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font: bold 1.07rem 'Roboto', Arial, sans-serif;
+  transition: color .3s;
+  &:hover {
+    color: #badcad;
+  }
+}
+
+.social-links__link--footer:hover svg * {
+  fill: #ffffff;
+}
+
+.inner-footer__quote {
+  text-align: left;
+}
+
+.inner-footer__quote-text {
+  font: italic 300 1.14rem 'Roboto', Arial, sans-serif;
+  color: #fff;
+  opacity: .5;
+  margin-bottom: 5px;
+}
+
+.inner-footer__quote-author {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  opacity: .6;
+}
+
+.inner-footer__bot {
+  padding: 10px 32px;
+  background: rgba(108,156,90,0.85);
+  text-align: center;
+}
+
+.inner-footer__copyright-top,
+.inner-footer__copyright-bot {
+  text-align: center;
+  font: 300 1rem 'Roboto', Arial, sans-serif;
+  color: #fff;
+  display: inline-block;
+}
+
+.inner-footer__copyright-top:after {
+  content: ' |';
+}

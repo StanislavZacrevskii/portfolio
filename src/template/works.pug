@@ -1,0 +1,42 @@
+doctype html
+html
+  include modules/head/head.pug
+  body
+    .preloader
+      .preloader__container
+        .preloader__text 0
+        include ../icons/forest.svg
+    include modules/menu.pug
+    .inner-wrapper
+      include modules/header/works-header.pug
+      section.my-works
+        h2.section-title.section-title--works Мои работы
+          include ../icons/works_header.svg
+        include modules/slider.pug
+      section.feedback
+        h2.section-title.section-title--feedback Что обо мне говорят
+          include ../icons/about_header.svg
+        .reviews
+          .review
+            .review__photo-wrapper
+              img(src="assets/img/review-photo-1.jpg").review__photo
+            p.review__text.
+              Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 2 месяца только самых тяжелых испытаний и бессонных ночей!
+            .review__author Ковальчук Дмитрий
+            .review__caption - основатель Loftschool
+          .review
+            .review__photo-wrapper
+              img(src="assets/img/review-photo-2.jpg").review__photo
+            p.review__text.
+              Этот код выдержит любые испытания. Только пожалуйста, не загружайте сайт на слишком старых браузерах!
+            .review__author Зар Захаров
+            .review__caption - главный преподаватель
+        form.feedback-form(method="get", action="#")
+          h2.feedback-form__title Связаться со мной
+          input(type="text" placeholder="Имя", required).feedback-form__name
+          input(type="email" placeholder="Email", required).feedback-form__email
+          textarea(placeholder="Ваше сообщение", required).feedback-form__text
+          .feedback-form__buttons
+            input(type="submit", value="Отправить").feedback-form__submit
+            input(type="button", value="Очистить").feedback-form__clear
+      include modules/inner-footer.pug

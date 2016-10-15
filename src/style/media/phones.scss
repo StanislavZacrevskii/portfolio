@@ -1,0 +1,87 @@
+@media  screen and (max-width: 480px) {
+
+  //  welcome
+  .main-header {
+    text-align: center;
+  }
+
+  .person-card {
+    min-width: 300px;
+  }
+
+
+  //about
+
+  .person-info-inner__name {
+    font-size: 1.5rem;
+  }
+
+  .person-info-inner__caption {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .section-title__bg {
+    max-width: 60%;
+  }
+
+  .section-title--abilities {
+    font-size: 1.8rem;
+  }
+
+  .section-title--about-less {
+    display: block;
+  }
+
+  .graph {
+    margin-bottom: 8px;
+  }
+
+  .contacts {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    padding: 0;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,.85);
+  }
+
+  .contacts__list {
+    display: block;
+    position: relative;
+    margin: 0 30px;
+    min-width: 270px;
+  }
+
+
+  //reviews
+
+  .review {
+    width: auto;
+  }
+
+
+  //footer
+
+  .inner-footer__caption-text {
+    font-size: 1rem;
+  }
+
+  .inner-footer__quote-text {
+    font-size: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+}

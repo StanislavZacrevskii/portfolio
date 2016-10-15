@@ -1,0 +1,52 @@
+.slider#slider
+  .slider__container
+    .slider__current#slide
+      ul.slider__current-list
+        li.slider__current-item
+          img.slider__current-image(src="http://loremflickr.com/g/520/640/auto")
+        li.slider__current-item.slider__current-item--active
+          img.slider__current-image(src="http://loremflickr.com/g/500/600/auto")
+        li.slider__current-item
+          img.slider__current-image(src="http://loremflickr.com/g/400/500/auto")
+        li.slider__current-item
+          img.slider__current-image(src="http://loremflickr.com/g/460/500/auto")
+    .slider__description#slideDescr
+      .slider__description-container
+        ul.slider__description-list
+          li.slider__description-item
+            .slider__header Сайт 1
+            .slider__caption Html, css, javascript
+            a.slider-btn(href="#") Посмотреть сайт
+          li.slider__description-item.slider__description-item--active
+            .slider__header Сайт 2
+            .slider__caption Html, css, javascript
+            a.slider-btn(href="#") Посмотреть сайт
+          li.slider__description-item
+            .slider__header Сайт 3
+            .slider__caption pug, sass, js, ruby
+            a.slider-btn(href="#") Посмотреть сайт
+          li.slider__description-item
+            .slider__header Сайт 4
+            .slider__caption Html, css
+            a.slider-btn(href="#") Посмотреть сайт
+    .slider__thumbnails
+      .thumbnail.thumbnail--down#downBtn
+        ul.thumbnail__list
+          li.thumbnail__item.thumbnail__item--active
+            img(src="http://loremflickr.com/g/520/640/auto").thumbnail__image
+          li.thumbnail__item
+            img(src="http://loremflickr.com/g/500/600/auto").thumbnail__image
+          li.thumbnail__item
+            img(src="http://loremflickr.com/g/400/500/auto").thumbnail__image
+          li.thumbnail__item
+            img(src="http://loremflickr.com/g/460/500/auto").thumbnail__image
+      .thumbnail.thumbnail--up#upBtn
+        ul.thumbnail__list
+          li.thumbnail__item
+            img(src="http://loremflickr.com/g/520/640/auto").thumbnail__image
+          li.thumbnail__item
+            img(src="http://loremflickr.com/g/500/600/auto").thumbnail__image
+          li.thumbnail__item.thumbnail__item--active
+            img(src="http://loremflickr.com/g/400/500/auto").thumbnail__image
+          li.thumbnail__item
+            img(src="http://loremflickr.com/g/460/500/auto").thumbnail__image

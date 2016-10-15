@@ -1,0 +1,136 @@
+.my-works {
+  position: relative;
+  z-index: 1;
+  background: #f8f9f5;
+  text-align: center;
+}
+
+.feedback {
+  text-align: center;
+  background: #f4f5f0 url(../img/works-bg.png) no-repeat center 75px;
+  background-size: cover;
+  position: relative;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 450px;
+}
+
+.section-title {
+  font-size: 63px;
+}
+
+.section-title--feedback {
+  margin-bottom: 35px;
+  max-width: 400px;
+}
+
+.reviews {
+  max-width: 750px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  font-size: 0;
+  -webkit-flex-flow: row wrap;
+}
+
+.review {
+  width: 50%;
+  padding: 0 20px 0 20px;
+  text-align: center;
+  margin-bottom: 35px;
+  display: inline-block;
+  font: italic 400 1rem 'Roboto', Arial, sans-serif;
+}
+
+.review__photo-wrapper {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: -15px;
+}
+
+.review__photo {
+  max-width: 100%;
+}
+
+.review__text {
+  margin: 0 0 15px;
+  padding: 25px 0 0;
+  color: #556358;
+  background: url(../icons/quotes.svg) no-repeat 0 0;
+  background-size: 75px 62px;
+  width: 100%;
+  text-align: left;
+}
+
+.review__author {
+  font: italic bold 1.14rem 'Roboto', Arial, sans-serif;
+  color: #65873d;
+  margin: 0 0 5px;
+}
+
+.review__caption {
+  color: #5a6358;
+}
+
+.feedback-form {
+  min-width: 300px;
+  max-width: 380px;
+  margin: 0 auto;
+  background: url(../img/feedback-form-bg.png) no-repeat 0 0/cover;
+  padding-top: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  &__title {
+    position: relative;
+    margin: 0;
+    color: #566358;
+    font: 2.5rem 'Sansus Webissimo', Arial, sans-serif;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 3px;
+      width: 90px;
+      background-color: #566358;
+    }
+  }
+  &__name,
+  &__email,
+  &__text {
+    display: block;
+    width: 90%;
+    margin: 0 auto 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    outline: none;
+  }
+  &__text {
+    height: 140px;
+  }
+  &__buttons {
+    display: flex;
+    height: 45px;
+  }
+  &__submit,
+  &__clear {
+    padding: 10px 0;
+    color: #fff;
+    border: none;
+    font: 500 1.14rem 'Roboto', Arial, sans-serif;
+    background: rgba(108,156,90,1);
+    flex-grow: 1;
+    opacity: .7;
+
+    &:hover {
+      opacity: .9;
+    }
+  }
+}

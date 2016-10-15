@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font: normal 14px 'Roboto', Arial, sans-serif;
+}
+
+.menu {
+  display: none;
+}
